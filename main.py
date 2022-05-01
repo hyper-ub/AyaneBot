@@ -35,7 +35,7 @@ async def start(client, message):
 async def new(_, m: Message):
     if m.from_user.id:
         chat = m.chat.title 
-        senko = Image.open('tenor.gif.mp4')
+        senko = Image.open('tenor.gif')
                           
         senkos = [senko.copy()]
 
