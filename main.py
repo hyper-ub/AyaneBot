@@ -26,7 +26,7 @@ async def start(client, message):
         InlineKeyboardButton("Repo", url="https://github.com/SussyCat7/AyaneBot"),
         InlineKeyboardButton("Owner", url="https://t.me/Kinda_Average")
     ]]
-    await message.reply_video(video="https://telegra.ph/file/e1a7ba3c3365e3c1206c4.gif", caption=f"Wewcome! OwO\nSenko-san onwy wowks on gwouwps.\nJuwst add me to uw gwouwp and i'ww gweat aww newcomews",
+    await message.reply_video(video="https://telegra.ph/file/52fff4417700ddb2a8099.mp4", caption=f"Welcome! Onii Chan 👉👈. Just Add me on Groups and see Magic",
                              reply_markup=InlineKeyboardMarkup(buttons))
   
 
