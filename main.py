@@ -23,8 +23,8 @@ bot = Client(
 @bot.on_message(filters.command(["start"], ['/', ".", "?"]))
 async def start(client, message):
     buttons = [[
-        InlineKeyboardButton("Repo", url="https://github.com/MoeZilla/telegram-senko-bot"),
-        InlineKeyboardButton("Owner", url="https://t.me/Madepranav")
+        InlineKeyboardButton("Repo", url="https://github.com/SussyCat7/AyaneBot"),
+        InlineKeyboardButton("Owner", url="https://t.me/Kinda_Average")
     ]]
     await message.reply_video(video="https://telegra.ph/file/e1a7ba3c3365e3c1206c4.gif", caption=f"Wewcome! OwO\nSenko-san onwy wowks on gwouwps.\nJuwst add me to uw gwouwp and i'ww gweat aww newcomews",
                              reply_markup=InlineKeyboardMarkup(buttons))
@@ -49,7 +49,7 @@ async def new(_, m: Message):
 
         senkos[0] = senkos[0]
 
-        senkotext = [f'Welcome to the {m.chat.username}! master {m.from_user.first_name}']
+        senkotext = [f'Welcome to the {m.chat.username}! Onii Chan {m.from_user.first_name}']
 
         s1 = senkos[0].size[0] // 2
         s2 = 240    
@@ -68,7 +68,7 @@ async def new(_, m: Message):
                      duration=150,              
                      loop=0)
 
-        await m.reply_video(video="newsenko.gif", caption=f"Welcome to the {m.chat.username}! master {m.from_user.first_name}")
+        await m.reply_video(video="newsenko.gif", caption=f"Welcome to the {m.chat.username}! Onii Chan {m.from_user.first_name}")
   
 senko_group = 6
  
@@ -88,12 +88,12 @@ async def senko(_, message):
         return
     RANDOM = (
         "yes {message.from_user.mention}",
-        "uwu understand! u~u *does not really understand*",
-        "Hmm... :c",
-        "you are funny",
-        "hahhahaha ;",
+        "Onii Chan Daisuki...*",
+        "Hmmmmmmmmm.....",
+        "you are bald",
+        "Go Away ;",
         "k",
-        "who",
+        "Nigga",
     )
     await message.reply_text(choice(RANDOM))
 
